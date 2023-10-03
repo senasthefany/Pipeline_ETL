@@ -4,10 +4,7 @@ import pandas as pd
 # import json
 import openai
 
-# def get_user(id):
-#     name_user = df['Name']
-
-openai_api_key = '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'
+openai_api_key = ' ' #put yor openai key here
 openai.api_key = openai_api_key
 
 def generate_ai_messages(id):
